@@ -88,6 +88,5 @@ setup(
             'release_build': 'egg_info -b "" -R sdist build_sphinx',
             'test': 'pytest',
         },
-    },
-    **extra
+    }
 )
